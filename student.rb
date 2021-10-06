@@ -11,6 +11,6 @@ class Student < Person
   end
 end
 
-student = Student.new('Room 18', 16)
+student = Student.new('Room 11', 22)
 
 p student.play_hooky
