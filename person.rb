@@ -2,7 +2,7 @@ require './corrector'
 
 class Person
   attr_accessor :age, :name
-  attr_reader :id
+  attr_reader :id, :classroom, :rentals
 
   def initialize(age, name = 'Unknown', parent_permission: true)
     @id = Random.rand(1..1000)
@@ -10,6 +10,16 @@ class Person
     @age = age
     @parent_permission = parent_permission
     @corrected_name = Corrector.new
+    @rentals = []
+  end
+
+  def classroom=(classroom)
+    @classroom = classroom
+    classroom.students.push(self) unless classroom.students.include?(self)
+  end
+
+  def validate_name
+    @name = @corrected_name.correct_name(@name)
   end
 
   def of_age?
@@ -19,14 +29,4 @@ class Person
   def can_use_services?
     of_age? || @parent_permission
   end
-
-  def validate_name
-    @name = @corrected_name.correct_name(@name)
-  end
 end
-
-person = Person.new(22, 'RicardoRodri')
-
-p person.name
-p person.validate_name
-p person.name
