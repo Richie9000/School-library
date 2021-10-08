@@ -1,36 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# School Library
 
-> One paragraph statement about the project.
+    This application has the following functionality:
 
-![screenshot](./app_screenshot.png)
+    Add new students or teachers.
 
-Additional description about the project and its features.
+    Add new books.
+
+    Save records of who borrowed a given book and when.
 
 ## Built With
 
 - Ruby
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 ## Authors
 
@@ -43,18 +25,6 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
