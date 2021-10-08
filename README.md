@@ -3,11 +3,8 @@
 # School Library
 
     This application has the following functionality:
-
     Add new students or teachers.
-
     Add new books.
-
     Save records of who borrowed a given book and when.
 
 ## Built With
