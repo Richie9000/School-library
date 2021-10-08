@@ -4,8 +4,8 @@ require './classroom'
 require './rental'
 require './book'
 
-student1 = Student.new('Math', 18, 'Student 1')
-student2 = Student.new('Math', 16, 'Student 2')
+student1 = Student.new('Chess', 101, 'Student 1')
+student2 = Student.new('Physics', 99, 'Student 2')
 
 book1 = Book.new('Book 1', 'Author 1')
 
