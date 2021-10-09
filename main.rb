@@ -10,7 +10,7 @@ puts 'Welcome to School Library App!'
 
 def choose_option
   puts
-  puts 'Please choose an option by enterin a number:'
+  puts 'Please choose an option:'
   puts '1 - List all books'
   puts '2 - List all people'
   puts '3 - Create a person'
